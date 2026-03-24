@@ -1,0 +1,17 @@
+body{
+  background:#2ECC71;
+  text-align:center;
+  color:white;
+  font-family:Arial;
+}
+header{
+  font-size:30px;
+  padding:20px;
+}
+.box{
+  background:white;
+  color:#2ECC71;
+  margin:20px;
+  padding:20px;
+  border-radius:10px;
+}
