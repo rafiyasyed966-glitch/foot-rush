@@ -39,6 +39,39 @@ header{
   background-color: white;
   width: 200px;
 }
+.product-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap; /* This makes them move to a new line on phones */
+    gap: 20px;
+    padding: 40px;
+}
+
+.product-card {
+    background: white;
+    border-radius: 12px;
+    padding: 20px;
+    width: 250px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    color: #333; /* Dark text so it's readable on white cards */
+}
+
+.product-card img {
+    width: 100%; /* Makes image fit inside the card */
+    height: 200px;
+    object-fit: cover; /* Prevents image stretching */
+    border-radius: 8px;
+}
+
+.buy-btn {
+    background-color: #28a745;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
 
 .product-card img {
   width: 100%;
